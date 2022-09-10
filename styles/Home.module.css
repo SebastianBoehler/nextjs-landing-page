@@ -1,0 +1,26 @@
+.mainContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 4rem;
+  min-height: 100vh;
+  margin: auto;
+  width: 60%;
+  align-items: center;
+  justify-items: center;
+}
+
+.child {
+  font-size: x-large;
+}
+
+.signupBtn {
+  margin-top: 1rem;
+  border-radius: 500px;
+  padding: 8px 0;
+  background-color: black;
+  color: white;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  min-width: 14rem;
+  font-size: 16px;
+  font-weight: bold;
+}

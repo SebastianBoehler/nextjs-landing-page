@@ -1,0 +1,28 @@
+.hr {
+    width: 85%;
+    opacity: 0.5;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 4rem;
+    margin: auto;
+    width: 60%;
+    justify-items: center;
+    font-size: 12px;
+}
+
+.headline {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.footerItem {
+    vertical-align: middle;
+}
+
+.copyright {
+    font-size: 12px;
+    opacity: 0.5;
+}
