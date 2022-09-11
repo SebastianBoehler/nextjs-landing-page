@@ -1,0 +1,59 @@
+.mainContainer {
+  min-height: 80vh;
+  padding: 8rem 2rem;
+}
+
+.signupWrapper {
+  margin: auto;
+  margin-top: 5rem;
+  width: 70vw;
+  text-align: center;
+}
+
+.headline {
+  font-weight: bold;
+  font-size: 48px;
+}
+
+.subText {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.fields {
+  margin: auto;
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+}
+
+.emailInput {
+  padding: 12px 1rem;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  font-size: 16px;
+  font-weight: bold;
+  min-width: 25rem;
+  color: grey;
+}
+
+.signupBtn {
+  margin-top: 1rem;
+  border-radius: 500px;
+  padding: 12px 0;
+  background-color: black;
+  color: white;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  min-width: 25rem;
+  font-size: 16px;
+  font-weight: bold;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.signupBtn:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}

@@ -1,6 +1,11 @@
 .hr {
     width: 85%;
     opacity: 0.5;
+    text-align: center;
+}
+
+.footer {
+    margin-top: 5rem;
 }
 
 .wrapper {

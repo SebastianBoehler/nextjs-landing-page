@@ -1,26 +1,63 @@
 .mainContainer {
+  min-height: 90vh;
+  padding: 8rem 2rem;
+}
+
+.container {
+  margin: auto;
+  width: 100%;
+}
+
+.container h1 {
+  text-align: center;
+}
+
+.grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 4rem;
-  min-height: 100vh;
-  margin: auto;
-  width: 60%;
   align-items: center;
   justify-items: center;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 2rem;
+  align-items: center;
+  justify-items: center;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.subText {
+  margin-top: 6rem;
+  text-align: center;
 }
 
 .child {
   font-size: x-large;
+  min-width: 300px;
 }
 
 .signupBtn {
   margin-top: 1rem;
   border-radius: 500px;
-  padding: 8px 0;
+  padding: 12px 0;
   background-color: black;
   color: white;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   min-width: 14rem;
   font-size: 16px;
   font-weight: bold;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.signupBtn:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
 }
